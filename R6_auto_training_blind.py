@@ -2,6 +2,12 @@ import ctypes
 import time
 import pyautogui as gui
 
+
+# direct inputs
+# source to this solution and code:
+# http://stackoverflow.com/questions/14489013/simulate-python-keypresses-for-controlling-a-game
+# http://www.flint.jp/misc/?q=dik&lang=en
+
 SendInput = ctypes.windll.user32.SendInput
 
 # C struct redefinitions 
